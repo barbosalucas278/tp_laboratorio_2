@@ -29,14 +29,26 @@ namespace Entidades
         {
             set
             {
-                this.numero = ValidarNumero(value);
+                double numeroValidado = ValidarNumero(value);
+                this.numero = numeroValidado;
             }
         }
         private double ValidarNumero(string strNumero)
         {
             double numeroVerificado;
-            if(double.TryParse(strNumero,out numeroVerificado)){
-                return numeroVerificado;
+            if (strNumero.Contains("."))
+            {
+                string strNumeroSinPunto = strNumero.Substring(0, strNumero.LastIndexOf('.'));
+                if(double.TryParse(strNumeroSinPunto, out numeroVerificado)){
+                    return numeroVerificado;
+                }
+            }
+            else
+            {
+                if (double.TryParse(strNumero, out numeroVerificado))
+                {
+                    return numeroVerificado;
+                }
             }
             return 0;
         }
@@ -144,7 +156,7 @@ namespace Entidades
         {
             if(n2.numero != 0)
             {
-                return n1.numero / n2.numero;
+                return Math.Round(n1.numero / n2.numero,2);
             }
             return double.MinValue;
         }
