@@ -1,0 +1,2 @@
+C:\Users\pocho\source\repos\Tp1\Tp1\obj\Debug\Tp1.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Tp1\Tp1\obj\Debug\Tp1.csproj.CoreCompileInputs.cache
