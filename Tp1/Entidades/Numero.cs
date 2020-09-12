@@ -129,7 +129,11 @@ namespace Entidades
             }
             return "Numero inválido";
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <returns></returns>
         public string DecimalBinario(string numero)
         {
             double enteroPositivo;
@@ -140,18 +144,42 @@ namespace Entidades
             return "Número inválido";
         }
 
+        /// <summary>
+        /// Resta entre dos números, n2 sustrae a n1.
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns>La resta entre ambos.</returns>
         public static double operator -(Numero n1, Numero n2)
         {
             return n1.numero - n2.numero;
         }
+        /// <summary>
+        /// Multiplicación entre dos numeros
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns>El resultado de la multiplicación</returns>
         public static double operator *(Numero n1, Numero n2)
         {
             return n1.numero * n1.numero;
         }
+        /// <summary>
+        /// Suma dos números.
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns>La suma de ambos.</returns>
         public static double operator +(Numero n1, Numero n2)
         {
             return n1.numero + n2.numero;
         }
+        /// <summary>
+        ///  Divide dos numeros.
+        /// </summary>
+        /// <param name="n1"></param>
+        /// <param name="n2"></param>
+        /// <returns>El cociente como resultado</returns>
         public static double operator /(Numero n1, Numero n2)
         {
             if(n2.numero != 0)
