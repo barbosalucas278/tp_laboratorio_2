@@ -61,6 +61,7 @@
             // 
             // cmbOperador
             // 
+            this.cmbOperador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbOperador.FormattingEnabled = true;
             this.cmbOperador.Items.AddRange(new object[] {
@@ -160,13 +161,13 @@
         #endregion
         private System.Windows.Forms.TextBox textNumero1;
         private System.Windows.Forms.TextBox textNumero2;
-        private System.Windows.Forms.ComboBox cmbOperador;
         private System.Windows.Forms.Button btnOperar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button buttonCerrar;
         private System.Windows.Forms.Button buttonConvertirABinario;
         private System.Windows.Forms.Button buttonConvertirADecimal;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.ComboBox cmbOperador;
     }
 }
 

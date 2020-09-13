@@ -19,28 +19,48 @@ namespace MiCalculadora
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Al precionar el boton operar realiza la operacion.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnOperar_Click(object sender, EventArgs e)
         {
             double resultado = Operar(this.textNumero1.Text, this.textNumero2.Text, this.cmbOperador.SelectedItem.ToString());
             this.lblResultado.Text = resultado.ToString();
         }
-
+        /// <summary>
+        /// Realiza una operacion matematica entre dos numeros.
+        /// </summary>
+        /// <param name="numero1"></param>
+        /// <param name="numero2"></param>
+        /// <param name="operador"></param>
+        /// <returns>El resultado de la operación.</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
             return Calculadora.Operar(new Numero(numero1),new Numero(numero2), operador);
         }
-
+        /// <summary>
+        /// Al precionar el boton buttonCerrar cierra el formulario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
+        /// <summary>
+        /// Al precionar el boton limpia el formulario de datos.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
         }
-
+        /// <summary>
+        /// Realiza la acción de limpiar los campos de texto del formulario.
+        /// </summary>
         private void Limpiar()
         {
             this.textNumero1.Text = string.Empty;
@@ -48,7 +68,11 @@ namespace MiCalculadora
             this.cmbOperador.Text = string.Empty;
             this.lblResultado.Text = string.Empty;
         }
-
+        /// <summary>
+        /// Al precionar el boton convierte el numero binario a decimal.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonConvertirADecimal_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(this.lblResultado.Text))
@@ -57,7 +81,11 @@ namespace MiCalculadora
                 this.lblResultado.Text = numeroEntero.BinarioDecimal(this.lblResultado.Text);
             }
         }
-
+        /// <summary>
+        /// Al precioanr el boton convierte solamente la parte entera del numero decimal en binario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonConvertirABinario_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(this.lblResultado.Text))

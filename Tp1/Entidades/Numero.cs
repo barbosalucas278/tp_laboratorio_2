@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,6 +34,11 @@ namespace Entidades
                 this.numero = numeroValidado;
             }
         }
+        /// <summary>
+        /// Valida que un número.
+        /// </summary>
+        /// <param name="strNumero"></param>
+        /// <returns>Si es un número lo devuelve tipo double, si no lo es devuelve 0.</returns>
         private double ValidarNumero(string strNumero)
         {
             double numeroVerificado;
@@ -52,6 +58,11 @@ namespace Entidades
             }
             return 0;
         }
+        /// <summary>
+        /// Valida que un numero de tipo string sea binario.
+        /// </summary>
+        /// <param name="binario"></param>
+        /// <returns>True si es binario, False si no lo es.</returns>
         private bool EsBinario(string binario)
         {
             if(!string.IsNullOrWhiteSpace(binario))
@@ -71,7 +82,11 @@ namespace Entidades
             }
             return false;
         }
-
+        /// <summary>
+        /// Convierte un numero binario de tipo string a decimal.
+        /// </summary>
+        /// <param name="binario"></param>
+        /// <returns>El numero decimal en tipo double.</returns>
         public string BinarioDecimal(string binario)
         {
             if (EsBinario(binario))
@@ -98,7 +113,11 @@ namespace Entidades
                 return "Valor inválido";
             }
         }
-
+        /// <summary>
+        /// Convierte un numero decimal de tipo string en binario.
+        /// </summary>
+        /// <param name="numero"></param>
+        /// <returns>El numero convertido en binario.</returns>
         public string DecimalBinario(double numero)
         {
             string numeroBinario = string.Empty;
@@ -130,10 +149,10 @@ namespace Entidades
             return "Numero inválido";
         }
         /// <summary>
-        /// 
+        /// Convierte un numero decimal de tipo double en binario.
         /// </summary>
         /// <param name="numero"></param>
-        /// <returns></returns>
+        /// <returns>El numero en binario.</returns>
         public string DecimalBinario(string numero)
         {
             double enteroPositivo;
