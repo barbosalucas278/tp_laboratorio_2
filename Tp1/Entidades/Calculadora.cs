@@ -22,10 +22,7 @@ namespace Entidades
                 {
                     return operador;
                 }
-                else
-                {
-                    return "+";
-                }
+                
             }
             return "+";
         }
