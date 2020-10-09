@@ -1,0 +1,26 @@
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\pocho\source\repos\Tp1\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\MiCalculadora\obj\Debug\MiCalculadora.pdb
