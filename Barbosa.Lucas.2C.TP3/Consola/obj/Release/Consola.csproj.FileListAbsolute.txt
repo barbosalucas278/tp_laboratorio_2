@@ -1,0 +1,14 @@
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Consola.exe.config
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Consola.exe
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Consola.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Barbosa.Lucas.2C.TP3.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Clases Abstractas.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Excepciones.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Barbosa.Lucas.2C.TP3.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Clases Abstractas.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\bin\Release\Excepciones.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\obj\Release\Consola.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\obj\Release\Consola.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\obj\Release\Consola.csproj.CopyComplete
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\obj\Release\Consola.exe
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Consola\obj\Release\Consola.pdb

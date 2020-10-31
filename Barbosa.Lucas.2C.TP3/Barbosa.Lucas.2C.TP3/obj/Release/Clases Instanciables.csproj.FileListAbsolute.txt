@@ -1,0 +1,11 @@
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\bin\Release\Barbosa.Lucas.2C.TP3.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\bin\Release\Barbosa.Lucas.2C.TP3.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\bin\Release\Clases Abstractas.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\bin\Release\Excepciones.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\bin\Release\Clases Abstractas.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\bin\Release\Excepciones.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\obj\Release\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\obj\Release\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\obj\Release\Clases Instanciables.csproj.CopyComplete
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\obj\Release\Barbosa.Lucas.2C.TP3.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Barbosa.Lucas.2C.TP3\obj\Release\Barbosa.Lucas.2C.TP3.pdb

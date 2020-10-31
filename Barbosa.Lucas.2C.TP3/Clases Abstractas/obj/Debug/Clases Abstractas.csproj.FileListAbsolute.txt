@@ -1,0 +1,9 @@
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
