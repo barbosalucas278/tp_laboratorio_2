@@ -12,11 +12,14 @@ namespace Entidades
 {
     public class Universidad
     {
+        #region "Atributos"
+
         public enum EClases { Programacion, Laboratorio, Legislacion, SPD }
         private List<Alumno> alumnos;
         private List<Profesor> profesores;
         private List<Jornada> jornada;
-        #region Constructor
+        #endregion
+        #region "Constructor"
 
         public Universidad()
         {
@@ -25,7 +28,7 @@ namespace Entidades
             this.jornada = new List<Jornada>();
         }
         #endregion
-        #region Propiedades
+        #region "Propiedades"
 
         public Jornada this[int i]
         {
@@ -73,7 +76,7 @@ namespace Entidades
             }
         }
         #endregion
-        #region Sobrecargas de Operadores
+        #region "Operadores"
 
         public static bool operator ==(Universidad g, Alumno n)
         {
@@ -188,7 +191,7 @@ namespace Entidades
             return u;
         }
         #endregion
-        #region Metodos y sobrecargas de metodos
+        #region "Métodos"
 
         private static string MostrarDatos(Universidad uni)
         {

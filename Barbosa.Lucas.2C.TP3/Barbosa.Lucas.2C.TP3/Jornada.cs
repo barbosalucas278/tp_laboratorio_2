@@ -11,9 +11,13 @@ namespace Entidades
 {
     public class Jornada
     {
+        #region "Atributos"
+
         private List<Alumno> alumnos;
         private Universidad.EClases clase;
         private Profesor instructor;
+        #endregion
+        #region "Constructores"
 
         private Jornada()
         {
@@ -25,6 +29,9 @@ namespace Entidades
             this.clase = clase;
             this.instructor = instructor;
         }
+        #endregion
+        #region "propiedades"
+
         public Profesor Instructor
         {
             get
@@ -59,6 +66,8 @@ namespace Entidades
                 this.alumnos = value;
             }
         }
+        #endregion
+        #region "Operadores"
 
         public static bool operator ==(Jornada j, Alumno n)
         {
@@ -85,6 +94,8 @@ namespace Entidades
             }
             return j;
         }
+        #endregion
+        #region "Métodos"
 
         public override string ToString()
         {
@@ -123,5 +134,6 @@ namespace Entidades
 
             return salida;
         }
+        #endregion
     }
 }

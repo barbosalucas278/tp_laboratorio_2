@@ -8,6 +8,8 @@ namespace Excepciones
 {
     public class NacionalidadInvalidaException : Exception
     {
+        #region "Constructores"
+
         public NacionalidadInvalidaException()
         {
 
@@ -17,5 +19,6 @@ namespace Excepciones
         {
 
         }
+        #endregion
     }
 }

@@ -10,8 +10,13 @@ namespace Entidades
 {
     public sealed class Profesor : Universitario
     {
+        #region "Atributos"
+
         private Queue<Universidad.EClases> clasesDelDia;
         private static Random random;
+        #endregion
+        #region "Constructores"
+
         static Profesor()
         {
             random = new Random();
@@ -25,6 +30,8 @@ namespace Entidades
             this.clasesDelDia = new Queue<Universidad.EClases>();
             this.RandomClases(2);
         }
+        #endregion
+        #region "Métodos"
 
         protected override string MostrarDatos()
         {
@@ -76,6 +83,8 @@ namespace Entidades
                 }
             }
         }
+        #endregion
+        #region "Operadores"
 
         public static bool operator ==(Profesor p, Universidad.EClases tipo)
         {
@@ -93,5 +102,6 @@ namespace Entidades
         {
             return !(p == tipo);
         }
+        #endregion
     }
 }

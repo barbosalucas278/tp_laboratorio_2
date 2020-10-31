@@ -8,9 +8,12 @@ namespace Excepciones
 {
     public class ArchivosException : Exception
     {
+        #region "Constructores"
+
         public ArchivosException(Exception innerException): base("CORREGIR ARCHIVOSEXCEPTION",innerException)
         {
 
         }
+        #endregion
     }
 }

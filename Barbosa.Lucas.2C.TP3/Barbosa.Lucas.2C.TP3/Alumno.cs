@@ -31,6 +31,7 @@ namespace Entidades
             this.estadoCuenta = estadoCuenta;
         }
         #endregion
+        #region "Métodos"
 
         protected override string MostrarDatos()
         {
@@ -51,6 +52,8 @@ namespace Entidades
         {
             return this.MostrarDatos();
         }
+        #endregion
+        #region "Operadores"
 
         public static bool operator ==(Alumno a, Universidad.EClases clase)
         {
@@ -69,5 +72,6 @@ namespace Entidades
             }
             return false;
         }
+        #endregion
     }
 }

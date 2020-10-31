@@ -9,6 +9,8 @@ namespace Archivos
 {
     public class Texto : IArchivos<string>
     {
+        #region "Métodos"
+
         public bool Guardar(string archivo, string obj)
         {
             StreamWriter streamWriter = null;
@@ -56,5 +58,6 @@ namespace Archivos
                 }
             }
         }
+        #endregion
     }
 }

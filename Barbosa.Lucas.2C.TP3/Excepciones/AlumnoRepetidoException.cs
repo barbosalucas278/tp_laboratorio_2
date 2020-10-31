@@ -8,6 +8,8 @@ namespace Excepciones
 {
     public class AlumnoRepetidoException : Exception
     {
+        #region "Constructores"
+
         public AlumnoRepetidoException()
         {
         }
@@ -15,5 +17,6 @@ namespace Excepciones
         public AlumnoRepetidoException(string message) : base(message)
         {
         }
+        #endregion
     }
 }

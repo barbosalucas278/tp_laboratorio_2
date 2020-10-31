@@ -8,6 +8,8 @@ namespace Excepciones
 {
     public class SinProfesorException : Exception
     {
+        #region "Constructores"
+
         public SinProfesorException()
         {
             
@@ -16,5 +18,6 @@ namespace Excepciones
         public SinProfesorException(string message) : base(message)
         {
         }
+        #endregion
     }
 }

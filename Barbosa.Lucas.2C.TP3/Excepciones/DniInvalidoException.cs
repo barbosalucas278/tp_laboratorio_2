@@ -8,6 +8,8 @@ namespace Excepciones
 {
     public class DniInvalidoException : Exception
     {
+        #region "Constructores"
+
         public DniInvalidoException()
         {
         }
@@ -23,5 +25,6 @@ namespace Excepciones
         public DniInvalidoException(string message, Exception innerException) : base(message, innerException)
         {
         }
+        #endregion
     }
 }

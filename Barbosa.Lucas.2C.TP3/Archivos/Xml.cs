@@ -11,6 +11,8 @@ namespace Archivos
 {
     public class Xml<T> : IArchivos<T>
     {
+        #region "Métodos"
+
         public bool Guardar(string archivo, T obj)
         {
             string ruta = archivo + "-" + DateTime.Now.ToString("yyyyMdd-Hm") + ".xml";
@@ -47,5 +49,6 @@ namespace Archivos
             }
             return datos;
         }
+        #endregion
     }
 }
