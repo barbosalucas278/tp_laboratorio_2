@@ -12,7 +12,12 @@ namespace Archivos
     public class Xml<T> : IArchivos<T>
     {
         #region "Métodos"
-
+        /// <summary>
+        /// Guarda los datos de un tipo de objeto T en un archivo Xml.
+        /// </summary>
+        /// <param name="archivo">Nombre del archivo</param>
+        /// <param name="obj">Objeto que deseamos guardar</param>
+        /// <returns></returns>
         public bool Guardar(string archivo, T obj)
         {
             string ruta = archivo + "-" + DateTime.Now.ToString("yyyyMdd-Hm") + ".xml";
@@ -38,7 +43,12 @@ namespace Archivos
 
             }
         }
-
+        /// <summary>
+        /// Lee un archivo Xml
+        /// </summary>
+        /// <param name="archivo">Nombre del archivo</param>
+        /// <param name="datos">Variable de tipo T donde seran guardados los datos leidos.</param>
+        /// <returns></returns>
         public T Leer(string archivo, out T datos)
         {
             string ruta = archivo + "-" + DateTime.Now.ToString("yyyyMdd-Hm") + ".xml";

@@ -24,7 +24,10 @@ namespace EntidadesAbstractas
         }
         #endregion
         #region "Métodos"
-
+        /// <summary>
+        /// Datos de un Universitario.
+        /// </summary>
+        /// <returns>Retorna un string con los datos.</returns>
         protected virtual string MostrarDatos()
         {
             StringBuilder datos = new StringBuilder();

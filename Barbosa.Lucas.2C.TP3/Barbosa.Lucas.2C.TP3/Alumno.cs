@@ -43,7 +43,10 @@ namespace Entidades
 
             return datosAlumno.ToString();
         }
-
+        /// <summary>
+        /// Clases en las que participa.
+        /// </summary>
+        /// <returns>Retorna un string con las clases que toma.</returns>
         protected override string ParticiparEnClase()
         {
             return $"TOMA CLASE DE {this.claseQueToma}";
@@ -54,7 +57,12 @@ namespace Entidades
         }
         #endregion
         #region "Operadores"
-
+        /// <summary>
+        /// Alumno será igual a EClase si éste toma la clase y si el estado de su cuenta no es deudor.
+        /// </summary>
+        /// <param name="a">Alumno</param>
+        /// <param name="clase">Clase</param>
+        /// <returns></returns>
         public static bool operator ==(Alumno a, Universidad.EClases clase)
         {
             if(a.claseQueToma == clase && a.estadoCuenta != EEstadoCuenta.Deudor)
@@ -63,7 +71,12 @@ namespace Entidades
             }
             return false;
         }
-
+        /// <summary>
+        /// Alumno será distinto de EClase si éste no toma la clase y es deudor.
+        /// </summary>
+        /// <param name="a">Alumnos</param>
+        /// <param name="clase">Clase</param>
+        /// <returns></returns>
         public static bool operator !=(Alumno a, Universidad.EClases clase)
         {
             if(a.claseQueToma != clase)

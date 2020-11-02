@@ -10,7 +10,7 @@ namespace Excepciones
     {
         #region "Constructores"
 
-        public ArchivosException(Exception innerException): base("CORREGIR ARCHIVOSEXCEPTION",innerException)
+        public ArchivosException(Exception innerException): base("Ha ocurrido un error con el archivo al que desea acceder",innerException)
         {
 
         }

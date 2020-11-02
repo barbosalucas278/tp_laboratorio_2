@@ -48,9 +48,9 @@ namespace Entidades
             return this.MostrarDatos();
         }
         /// <summary>
-        /// 
+        /// Recoge informacion de las clases de un profesor.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Retorna string con las clases del dia del profesor.</returns>
         protected override string ParticiparEnClase()
         {
             StringBuilder datosClases = new StringBuilder();
@@ -61,11 +61,14 @@ namespace Entidades
             }
             return datosClases.ToString();
         }
-
+        /// <summary>
+        /// Agrega clases aleatorias a un profesor.
+        /// </summary>
+        /// <param name="cantidadDeClases">Cantidad de clases que se desean agregar.</param>
         private void RandomClases(int cantidadDeClases)
         {
-            int clase = random.Next(1, 4);
             while(this.clasesDelDia.Count < cantidadDeClases){
+                int clase = random.Next(1, 4);
                 switch (clase)
                 {
                     case 1:
@@ -85,7 +88,12 @@ namespace Entidades
         }
         #endregion
         #region "Operadores"
-
+        /// <summary>
+        /// Profesor será igual a EClase si éste se encuentra dando la clase.
+        /// </summary>
+        /// <param name="p">Profesor</param>
+        /// <param name="tipo">Clase</param>
+        /// <returns></returns>
         public static bool operator ==(Profesor p, Universidad.EClases tipo)
         {
             foreach(Universidad.EClases clase in p.clasesDelDia)
@@ -97,7 +105,12 @@ namespace Entidades
             }
             return false;
         }
-
+        /// <summary>
+        /// Profesor sera diferente a EClase si éste no da la clase.
+        /// </summary>
+        /// <param name="p"></param>
+        /// <param name="tipo"></param>
+        /// <returns></returns>
         public static bool operator !=(Profesor p, Universidad.EClases tipo)
         {
             return !(p == tipo);

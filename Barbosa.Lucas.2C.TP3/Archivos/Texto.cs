@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Excepciones;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,10 +8,16 @@ using System.Threading.Tasks;
 
 namespace Archivos
 {
+    
     public class Texto : IArchivos<string>
     {
         #region "Métodos"
-
+        /// <summary>
+        /// Guarda datos en un archivo de texto.
+        /// </summary>
+        /// <param name="archivo">Nombre del archivo</param>
+        /// <param name="obj">Informacion que deseamos guardar</param>
+        /// <returns></returns>
         public bool Guardar(string archivo, string obj)
         {
             StreamWriter streamWriter = null;
@@ -22,6 +29,10 @@ namespace Archivos
 
                 return true;
             }
+            catch (Exception ex)
+            {
+                throw new ArchivosException(ex);
+            }
             finally
             {
                 if (streamWriter != null)
@@ -30,7 +41,12 @@ namespace Archivos
                 }
             }           
         }
-
+        /// <summary>
+        /// Lee datos en un archivo de texto.
+        /// </summary>
+        /// <param name="archivo">Nombre del archivo</param>
+        /// <param name="datos">Referencia al tipo de dato string donde se guardaran los datos leidos.</param>
+        /// <returns></returns>
         public string Leer(string archivo, out string datos)
         {
             StreamReader streamReader = null;
@@ -49,6 +65,9 @@ namespace Archivos
 
                 datos = text;
                 return datos;
+            }catch(Exception ex)
+            {
+                throw new ArchivosException(ex);
             }
             finally
             {

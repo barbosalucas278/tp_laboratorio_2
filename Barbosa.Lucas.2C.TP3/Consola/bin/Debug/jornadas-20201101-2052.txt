@@ -1,0 +1,35 @@
+CLASE DE Legislacion
+PROFESOR
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12224458
+Legajo: 1
+
+CLASES DEL DIA
+Legislacion
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Miguel
+Apellido: Hernandez
+Nacionalidad: Extranjero
+DNI: 92264456
+Legajo: 4
+
+Clase que toma: Legislacion
+Estado de la cuenta: AlDia
+
+Nombre: Rodrigo
+Apellido: Smith
+Nacionalidad: Argentino
+DNI: 22236456
+Legajo: 8
+
+Clase que toma: Legislacion
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+

@@ -1,4 +1,5 @@
 ﻿using Archivos;
+using Excepciones;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -31,7 +32,9 @@ namespace Entidades
         }
         #endregion
         #region "propiedades"
-
+        /// <summary>
+        /// Obtiene el profesor de la jornada.
+        /// </summary>
         public Profesor Instructor
         {
             get
@@ -43,7 +46,9 @@ namespace Entidades
                 this.instructor = value;
             }
         }
-
+        /// <summary>
+        /// Obtiene la clase de la jornada.
+        /// </summary>
         public Universidad.EClases Clase
         {
             get
@@ -55,6 +60,9 @@ namespace Entidades
                 this.clase = value;
             }
         }
+        /// <summary>
+        /// Obtiene la lista de alumnos de la jornada.
+        /// </summary>
         public List<Alumno> Alumnos
         {
             get
@@ -68,7 +76,12 @@ namespace Entidades
         }
         #endregion
         #region "Operadores"
-
+        /// <summary>
+        /// Jornada será igual a Alumno si éste se encuentra en la lista de alumnos de la jornada.
+        /// </summary>
+        /// <param name="j">Jornada</param>
+        /// <param name="n">Alumno</param>
+        /// <returns></returns>
         public static bool operator ==(Jornada j, Alumno n)
         {
             foreach(Alumno alumno in j.Alumnos)
@@ -80,17 +93,31 @@ namespace Entidades
             }
             return false;
         }
-
+        /// <summary>
+        /// Jornada será distinto de Alumno si éste no se encuentra en la lista de alumnos de la jornada.
+        /// </summary>
+        /// <param name="j">Jornada</param>
+        /// <param name="n">Alumno</param>
+        /// <returns></returns>
         public static bool operator !=(Jornada j, Alumno n)
         {
             return !(j == n);
         }
-
+        /// <summary>
+        /// ALumno será agregadoa a lista de alumnos de jornada, si este no se encuentra en la lista.
+        /// </summary>
+        /// <param name="j"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static Jornada operator +(Jornada j, Alumno n)
         {
             if(j != n)
             {
                 j.Alumnos.Add(n);
+            }
+            else
+            {
+                throw new AlumnoRepetidoException("Alumno repetido");
             }
             return j;
         }
@@ -112,25 +139,45 @@ namespace Entidades
             datosJornada.AppendLine("<------------------------------------------------>");
             return datosJornada.ToString();
         }
-
+        /// <summary>
+        /// Guardará los datos de una jornada en un archivo de texto, en el mismo directorio.
+        /// </summary>
+        /// <param name="jornada">Jornada</param>
+        /// <returns>True si se puudo guardar, False si no s epudo guardar.</returns>
         public static bool Guardar(Jornada jornada)
         {
             Texto txt = new Texto();
             string nombre = "jornadas";
-            if (txt.Guardar(nombre, jornada.ToString()))
+            try
             {
-                return true;
+                if (txt.Guardar(nombre, jornada.ToString()))
+                {
+                    return true;
+                }
+            }
+            catch (ArchivosException ex)
+            {
+                throw new ArchivosException(ex);
             }
             return false;
         }
-
+        /// <summary>
+        /// Lee un archivos de texto con datos de las jornadas.
+        /// </summary>
+        /// <returns>string con datos de las jornadas</returns>
         public static string Leer()
         {
             Texto txt = new Texto();
             string nombre = "jornadas";
             string salida = string.Empty;
-
-            txt.Leer(nombre, out salida);
+            try
+            {
+                txt.Leer(nombre, out salida);
+            }
+            catch (ArchivosException ex)
+            {
+                throw new ArchivosException(ex);
+            }
 
             return salida;
         }
