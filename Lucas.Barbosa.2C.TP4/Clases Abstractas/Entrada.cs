@@ -8,8 +8,13 @@ using MetodosDeExtension;
 
 namespace Entidades
 {
+    /// <summary>
+    /// Clase abstracta.
+    /// </summary>
     public abstract class Entrada
     {
+        #region "Atributos"
+
         private const double Ganancia = 30;
         private int id;
         private string espectaculo;
@@ -17,6 +22,7 @@ namespace Entidades
         private DateTime fecha;
         private string butaca;
         private double costo;
+        #endregion
         #region "Constructor"
 
         protected Entrada(string espectaculo, int sala, DateTime fecha, string butaca, double costo)
@@ -31,6 +37,9 @@ namespace Entidades
         #endregion
 
         #region "Propiedades"
+        /// <summary>
+        /// Propiedad que maneja el atributo id.
+        /// </summary>
         public int Id
         {
             get
@@ -42,6 +51,9 @@ namespace Entidades
                 this.id = value;
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo espectaculo.
+        /// </summary>
         public string Espectaculo
         {
             get
@@ -53,6 +65,9 @@ namespace Entidades
                 this.espectaculo = value;
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo Sala.
+        /// </summary>
         public int Sala
         {
             get
@@ -64,6 +79,9 @@ namespace Entidades
                 this.sala = value;
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo fecha.
+        /// </summary>
         public DateTime Fecha
         {
             get
@@ -75,6 +93,9 @@ namespace Entidades
                 this.fecha = value;
             }
         }
+        /// <summary>
+        /// propiedad que maneja el atributo butaca.
+        /// </summary>
         public string Butaca
         {
             get
@@ -93,6 +114,9 @@ namespace Entidades
                 }
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo Precio, agregandole un aumento al costo de la entrada para la venta.
+        /// </summary>
         public double Precio
         {
             get
@@ -120,6 +144,8 @@ namespace Entidades
             return datosEntrada.ToString();
         }
         #endregion
+        #region "Sobracargas"
+
         /// <summary>
         /// dos entradas son iguales si tienen el mismo id y butaca.
         /// </summary>
@@ -144,5 +170,6 @@ namespace Entidades
         {
             return !(e1 == e2);
         }
+        #endregion
     }
 }

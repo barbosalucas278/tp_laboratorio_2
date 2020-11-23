@@ -8,8 +8,13 @@ using System.Threading.Tasks;
 namespace Entidades
 {
     public delegate void SalasDelegate(Sala salaActualizada);
+    /// <summary>
+    /// Clase publica.
+    /// </summary>
     public class Sala
     {
+        #region "Atributos"
+
         public event SalasDelegate ActualizarSalasEvento;
 
         private const int CantidadDeButacasPorFila = 10;
@@ -17,6 +22,8 @@ namespace Entidades
         private const string NombreDeFilas = "ABCDEFGHIJ";
         private List<Butaca> butacas;
         private int numeroDeSala;
+        #endregion
+        #region "Constructor"
 
         public Sala(int numeroDeSala)
         {
@@ -24,20 +31,11 @@ namespace Entidades
             this.ArmarSala();
             this.numeroDeSala = numeroDeSala;
         }
+        #endregion
+        #region "Propiedades"
         /// <summary>
-        /// Arma la numeraciOn y distribución de las butacas en la sala.
+        /// propiedad que maneja el atributo butacas.
         /// </summary>
-        private void ArmarSala()
-        {
-            for (int fila = 0; fila < CantidadDeFilas; fila++)
-            {
-                for (int butaca = 1; butaca <= CantidadDeButacasPorFila; butaca++)
-                {
-                    string ubicacion = NombreDeFilas.Substring(fila, 1) + butaca.ToString();
-                    this.butacas.Add(new Butaca(ubicacion,Butaca.TipoEstado.Libre));
-                }
-            }
-        }
         public List<Butaca> Butacas
         {
             get
@@ -49,6 +47,9 @@ namespace Entidades
                 this.butacas = value;
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo numeroDeSalas.
+        /// </summary>
         public int NumeroDeSala
         {
             get
@@ -56,6 +57,9 @@ namespace Entidades
                 return this.numeroDeSala;
             }
         }
+        #endregion
+        #region "Metodos"
+
         /// <summary>
         /// Ocupa una butaca d ela sala
         /// </summary>
@@ -94,9 +98,24 @@ namespace Entidades
             return false;
         }
 
+        /// <summary>
+        /// Arma la numeraciOn y distribución de las butacas en la sala.
+        /// </summary>
+        private void ArmarSala()
+        {
+            for (int fila = 0; fila < CantidadDeFilas; fila++)
+            {
+                for (int butaca = 1; butaca <= CantidadDeButacasPorFila; butaca++)
+                {
+                    string ubicacion = NombreDeFilas.Substring(fila, 1) + butaca.ToString();
+                    this.butacas.Add(new Butaca(ubicacion,Butaca.TipoEstado.Libre));
+                }
+            }
+        }
         public override string ToString()
         {
             return this.NumeroDeSala.ToString();
         }
+        #endregion
     }
 }

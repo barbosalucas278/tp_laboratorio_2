@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
+    /// <summary>
+    /// Esta clase no puede ser derivada.
+    /// </summary>
     public sealed class Butaca
     {
         #region "Atributos"
-
         public enum TipoEstado { Ocupado, Libre }
         private string ubicacion;
         private TipoEstado estado;
         #endregion
         #region "Contructor"
-
         public Butaca(string ubicacion, TipoEstado estado)
         {
             this.ubicacion = ubicacion;
@@ -23,7 +24,9 @@ namespace Entidades
         }
         #endregion
         #region "Propiedades"
-
+        /// <summary>
+        /// Propiedad que maneja el atributo Ubicacion.
+        /// </summary>
         public string Ubicacion
         {
             get
@@ -31,6 +34,9 @@ namespace Entidades
                 return this.ubicacion;
             }
         }
+        /// <summary>
+        /// propiedad que maneja el atributo estado.
+        /// </summary>
         public TipoEstado Estado
         {
             get

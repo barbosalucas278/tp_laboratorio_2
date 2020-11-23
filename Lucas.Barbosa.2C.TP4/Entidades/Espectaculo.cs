@@ -6,13 +6,21 @@ using System.Xml.Schema;
 using MetodosDeExtension;
 namespace Entidades
 {
+    /// <summary>
+    /// Clase pública.
+    /// </summary>
     public class Espectaculo
     {
+        #region "Atributos"
+
         private string nombre;
         private string descripcion;
         private DateTime horario;
         private int sala;
         private double precio;
+        #endregion
+        #region "Constructor"
+
         public Espectaculo(string nombre, string descripcion, DateTime horario, int sala, double costo)
         {
             this.Costo = costo;
@@ -21,7 +29,11 @@ namespace Entidades
             this.Dia = horario;
             this.Sala = sala;
         }
+        #endregion
         #region "Propiedades"
+        /// <summary>
+        /// Propiedad que maneja el atributo nombre.
+        /// </summary>
         public string Nombre
         {
             get
@@ -40,6 +52,9 @@ namespace Entidades
                 }
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo descripcion validando que este no sea nulo o vacio.
+        /// </summary>
         public string Descripcion
         {
             get
@@ -58,6 +73,9 @@ namespace Entidades
                 }
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo horario.
+        /// </summary>
         public DateTime Dia
         {
             get
@@ -69,6 +87,9 @@ namespace Entidades
                 this.horario = value;
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo Sala
+        /// </summary>
         public int Sala
         {
             get
@@ -80,6 +101,9 @@ namespace Entidades
                 this.sala = value;
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo costo, validando que este sea mayor o igual a 0.
+        /// </summary>
         public double Costo
         {
             get
@@ -99,6 +123,8 @@ namespace Entidades
             }
         }
         #endregion
+        #region "Sobrecargas"
+
         /// <summary>
         /// Un espectaculo es igual a una sala si la sala del espectaculo es igual al numero de sala.
         /// </summary>
@@ -141,6 +167,9 @@ namespace Entidades
         {
             return !(e1 == e2);
         }
+
+        #endregion
+        #region "Metodos"
         /// <summary>
         /// Muestra todos los datos de un espectaculo.
         /// </summary>
@@ -161,5 +190,6 @@ namespace Entidades
         {
             return this.Nombre;
         }
+        #endregion
     }
 }

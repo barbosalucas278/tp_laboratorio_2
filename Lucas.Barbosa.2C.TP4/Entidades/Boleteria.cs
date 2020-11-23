@@ -12,23 +12,31 @@ namespace Entidades
 {
     public delegate void EntradaDelegate(Entrada e);
     public delegate void CallbackSalas(Sala s);
-
+    /// <summary>
+    /// Esta clase no puede ser derivada.
+    /// </summary>
+    /// <typeparam name="U">Tipo Entrada</typeparam>
     public sealed class Boleteria<U> : IBoleteria<U> where U : Entrada
     {
         public event EntradaDelegate EventoConfirmacion;
-
+        #region "Atributos"
         public enum TipoVenta { Ventanilla, Electronica }
         private List<U> entradas;
         private List<Sala> salas;
         private List<Espectaculo> espectaculos;
-
-
+        #endregion
+        #region "Constructor"
         public Boleteria(List<Sala> salas, List<Espectaculo> espectaculos)
         {
             this.salas = salas;
             this.espectaculos = espectaculos;
             this.entradas = new List<U>();
         }
+        #endregion
+        #region "propiedades"
+        /// <summary>
+        /// Propiedad que maneja el atributo salas.
+        /// </summary>
         public List<Sala> Salas
         {
             get
@@ -40,6 +48,9 @@ namespace Entidades
                 this.salas = value;
             }
         }
+        /// <summary>
+        /// Propiedad que maneja el atributo espectaculos.
+        /// </summary>
         public List<Espectaculo> Espectaculos
         {
             get
@@ -47,6 +58,8 @@ namespace Entidades
                 return this.espectaculos;
             }
         }
+        #endregion
+        #region "Metodos"
         /// <summary>
         /// Confirma la venta de una entrada.
         /// </summary>
@@ -132,7 +145,7 @@ namespace Entidades
             }
         }
         /// <summary>
-        /// Retorna la primera butaca libre de la sala correspondiente al espectaculo.
+        /// Retorna una butaca libre aleatoria de la sala correspondiente al espectaculo.
         /// </summary>
         /// <param name="e">Espectáculo</param>
         /// <returns></returns>
@@ -173,7 +186,10 @@ namespace Entidades
             }
             return butacaLibre;
         }
-
+        /// <summary>
+        /// Guarda una entrada en una base de datos.
+        /// </summary>
+        /// <param name="entrada">Entrada</param>
         public void GuardarEntradaEnBD(U entrada)
         {
             string connectionString = @"Server=.\SQLEXPRESS;Database=tp4-database;Trusted_Connection=True;";
@@ -194,5 +210,6 @@ namespace Entidades
             }
             
         }
+        #endregion
     }
 }
