@@ -86,11 +86,14 @@
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.agregarToolStripMenuItem.Text = "Agregar ";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
-            
-
+            // 
+            // informeToolStripMenuItem
+            // 
+            this.informeToolStripMenuItem.Name = "informeToolStripMenuItem";
+            this.informeToolStripMenuItem.Size = new System.Drawing.Size(12, 20);
             // 
             // Teatro
             // 

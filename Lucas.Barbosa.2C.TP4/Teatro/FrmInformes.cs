@@ -21,6 +21,7 @@ namespace Teatro
         {
 
         }
+
         public void ActualizarInforme(string datos)
         {
             this.richTextBoxInformes.Text = datos;

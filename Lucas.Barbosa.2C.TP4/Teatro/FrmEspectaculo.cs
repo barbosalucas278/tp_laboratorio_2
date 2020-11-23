@@ -13,7 +13,7 @@ using System.Windows.Forms;
 namespace Teatro
 {
     public partial class FrmEspectaculo : Form
-    {
+    {        
         public FrmEspectaculo(List<Sala> salas)
         {
             InitializeComponent();

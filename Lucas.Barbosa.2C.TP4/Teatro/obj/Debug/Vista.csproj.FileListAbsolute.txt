@@ -21,3 +21,26 @@ C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Debug\Vista.csproj.C
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Debug\Teatro.exe
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Debug\Teatro.pdb
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Debug\Teatro.FrmInformes.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Vista.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Teatro.FrmBoleteriaElectronica.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Teatro.FrmBoleteriaVentanilla.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Teatro.FrmEspectaculo.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Teatro.FrmInformes.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Teatro.Teatro.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Teatro.Properties.Resources.resources
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Vista.csproj.GenerateResource.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Teatro.exe
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Teatro.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Teatro.exe.config
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Teatro.exe
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Teatro.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Clases Abstractas.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Entidades.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Excepciones.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\MetodosDeExtension.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Clases Abstractas.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Entidades.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\Excepciones.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\bin\Debug\MetodosDeExtension.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Teatro\obj\Debug\Vista.csproj.CopyComplete

@@ -4,3 +4,9 @@ C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\obj\Debug\Excepcion
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\obj\Debug\Excepciones.dll
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\obj\Debug\Excepciones.pdb
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Excepciones\obj\Debug\Excepciones.pdb

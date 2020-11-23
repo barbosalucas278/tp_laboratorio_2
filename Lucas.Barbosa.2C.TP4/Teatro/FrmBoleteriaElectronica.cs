@@ -16,14 +16,28 @@ namespace Teatro
     public delegate void InfoError();
     public partial class FrmBoleteriaElectronica : Form
     {
+        #region "Atributos"
+
         private Boleteria<EntradaElectronica> boleteria;
         private Thread ventas;
+        #endregion
+        #region "Constructor"
         public FrmBoleteriaElectronica(Boleteria<EntradaElectronica> boleteria)
         {
             InitializeComponent();
             this.boleteria = boleteria;
         }
+        #endregion
+        #region "Propiedades"
 
+        public Thread Ventas
+        {
+            get
+            {
+                return this.ventas;
+            }
+        }
+        #endregion
         private void btnAbrir_Click(object sender, EventArgs e)
         {
             this.btnCerrar.Enabled = true;
@@ -31,6 +45,28 @@ namespace Teatro
             this.ventas = new Thread(this.GenerarVentasAleatoriasElectronicas);
             this.ventas.Start();
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.btnAbrir.Enabled = true;
+            this.btnCerrar.Enabled = false;
+            
+            if(this.ventas.IsAlive && this.ventas != null)
+            {
+                this.ventas.Abort();
+            }
+        }
+
+        private void FrmBoleteriaElectronica_Load_1(object sender, EventArgs e)
+        {
+            this.boleteria.EventoConfirmacion += this.HandlerEventoConfirmacionElectronica;
+            foreach (Sala sala in this.boleteria.Salas)
+            {
+                sala.ActualizarSalasEvento += this.HandlerActualizarSalasEventoElectronico;
+            }
+        }
+        #region "Metodos"
+
         /// <summary>
         /// Genera ventas aleatorias.
         /// </summary>
@@ -66,6 +102,9 @@ namespace Teatro
 
             }
         }
+        /// <summary>
+        /// Informa que ha sucedido un error en el richTextBox.
+        /// </summary>
         private void InformarErrorEletronico()
         {
             if (this.richTextBoxVentaElectronica.InvokeRequired)
@@ -78,6 +117,10 @@ namespace Teatro
                 this.richTextBoxVentaElectronica.Text = "Ha ocurrido un problema, no se efectuó la venta.\n" + this.richTextBoxVentaElectronica.Text;
             }
         }
+        /// <summary>
+        /// Manejador del evento confirmar entrada, agrega los datos de la entrada a las demas en el richTextBox.
+        /// </summary>
+        /// <param name="e">entrada</param>
         private void HandlerEventoConfirmacionElectronica(Entrada e)
         {
             if (this.richTextBoxVentaElectronica.InvokeRequired)
@@ -90,27 +133,10 @@ namespace Teatro
                 this.richTextBoxVentaElectronica.Text = this.boleteria.ImprimirEntradaBreve((EntradaElectronica)e) + "\n" + this.richTextBoxVentaElectronica.Text;
             }
         }
-
-        private void btnCerrar_Click(object sender, EventArgs e)
-        {
-            this.btnAbrir.Enabled = true;
-            this.btnCerrar.Enabled = false;
-            
-            if(this.ventas.IsAlive && this.ventas != null)
-            {
-                this.ventas.Abort();
-            }
-        }
-
-        private void FrmBoleteriaElectronica_Load_1(object sender, EventArgs e)
-        {
-            this.boleteria.EventoConfirmacion += this.HandlerEventoConfirmacionElectronica;
-            foreach (Sala sala in this.boleteria.Salas)
-            {
-                sala.ActualizarSalasEvento += this.HandlerActualizarSalasEventoElectronico;
-            }
-        }
-
+        /// <summary>
+        /// Manejador dle evento ActualizarSalasEvento, lo que hace es asignarle nuevamente la sala que fue modificada, asi se actualizan los Estados de las butacas. 
+        /// </summary>
+        /// <param name="salaActualizada">sala actualizada</param>
         private void HandlerActualizarSalasEventoElectronico(Sala salaActualizada)
         {
             for (int i = 0; i < this.boleteria.Salas.Count; i++)
@@ -122,5 +148,6 @@ namespace Teatro
                 }
             }
         }
+        #endregion
     }
 }

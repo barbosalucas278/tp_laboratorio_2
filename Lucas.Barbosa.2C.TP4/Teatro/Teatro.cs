@@ -16,11 +16,18 @@ namespace Teatro
 {
     public partial class Teatro : Form
     {
+        #region "Atributos"
+
         private const int CantidadDeSalas = 3;
         private List<Espectaculo> espectaculos;
         private List<Sala> salas;
         private Boleteria<EntradaVentanilla> boleteriaVentanilla;
+        private FrmBoleteriaVentanilla FormVentanilla;
         private Boleteria<EntradaElectronica> boleteriaElectronica;
+        private FrmBoleteriaElectronica formBoleteriaelectronica;
+        #endregion
+        #region "Constructor"
+
         public Teatro()
         {
             InitializeComponent();
@@ -29,6 +36,7 @@ namespace Teatro
             this.boleteriaVentanilla = this.GenerarBoleteriaVentanilla();
             this.boleteriaElectronica = this.GenerarBoleteriaElectronica();
         }
+        #endregion
 
         private void FrmTeatro_Load(object sender, EventArgs e)
         {
@@ -39,23 +47,23 @@ namespace Teatro
             //this.espectaculos.Add(new Espectaculo("motorhead", "bla bla", new DateTime(2020, 11, 21, 21, 40, 00), 3, 300.50));
 
         }
-        private void CrearSalas(int cantidad)
-        {
-            for (int sala = 1; sala <= cantidad; sala++)
-            {
-                this.salas.Add(new Sala(sala));
-            }
-        }
         private void VentanillaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmBoleteriaVentanilla FormVentanilla = new FrmBoleteriaVentanilla(this.boleteriaVentanilla);
+            FormVentanilla = new FrmBoleteriaVentanilla(this.boleteriaVentanilla);
             
             FormVentanilla.MdiParent = this;
             FormVentanilla.Show();
             this.vEntanillaToolStripMenuItem.Enabled = false;
 
         }
+        private void electronicaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formBoleteriaelectronica = new FrmBoleteriaElectronica(this.boleteriaElectronica);
 
+            formBoleteriaelectronica.MdiParent = this;
+            formBoleteriaelectronica.Show();
+            this.electronicaToolStripMenuItem.Enabled = false;
+        }
         private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmEspectaculo formEspectaculo = new FrmEspectaculo(this.salas);
@@ -73,6 +81,18 @@ namespace Teatro
             {
                 this.agregarToolStripMenuItem.Enabled = false;
                 this.boleteriaToolStripMenuItem.Enabled = true;
+            }
+        }
+        #region "Metodos"
+        /// <summary>
+        /// Crea las salas del teatro.
+        /// </summary>
+        /// <param name="cantidad"></param>
+        private void CrearSalas(int cantidad)
+        {
+            for (int sala = 1; sala <= cantidad; sala++)
+            {
+                this.salas.Add(new Sala(sala));
             }
         }
         /// <summary>
@@ -95,15 +115,7 @@ namespace Teatro
 
             return boleteria;
         }
-
-        private void electronicaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FrmBoleteriaElectronica formBoleteriaelectronica = new FrmBoleteriaElectronica(this.boleteriaElectronica);
-
-            formBoleteriaelectronica.MdiParent = this;
-            formBoleteriaelectronica.Show();
-            this.electronicaToolStripMenuItem.Enabled = false;
-        }
+        #endregion
 
     }
 }

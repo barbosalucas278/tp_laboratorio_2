@@ -3,3 +3,9 @@ C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\bin\Debug\Me
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\obj\Debug\MetodosDeExtension.csproj.CoreCompileInputs.cache
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\obj\Debug\MetodosDeExtension.dll
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\obj\Debug\MetodosDeExtension.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\MetodosDeExtension\bin\Debug\MetodosDeExtension.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\MetodosDeExtension\bin\Debug\MetodosDeExtension.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\MetodosDeExtension\obj\Debug\MetodosDeExtension.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\MetodosDeExtension\obj\Debug\MetodosDeExtension.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\MetodosDeExtension\obj\Debug\MetodosDeExtension.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\MetodosDeExtension\obj\Debug\MetodosDeExtension.pdb

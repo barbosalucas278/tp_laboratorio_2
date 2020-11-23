@@ -9,3 +9,14 @@ C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\obj\Release\C
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\obj\Release\Clases Abstractas.pdb
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\bin\Release\Excepciones.dll
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\bin\Release\Excepciones.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\bin\Release\Clases Abstractas.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\bin\Release\Clases Abstractas.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\bin\Release\Excepciones.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\bin\Release\MetodosDeExtension.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\bin\Release\Excepciones.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\bin\Release\MetodosDeExtension.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\obj\Release\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\obj\Release\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\obj\Release\Clases Abstractas.csproj.CopyComplete
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\obj\Release\Clases Abstractas.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Clases Abstractas\obj\Release\Clases Abstractas.pdb

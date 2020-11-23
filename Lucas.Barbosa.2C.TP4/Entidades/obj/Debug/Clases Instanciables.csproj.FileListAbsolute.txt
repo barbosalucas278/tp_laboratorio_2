@@ -11,3 +11,16 @@ C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Debug\Clases Inst
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Debug\Clases Instanciables.csproj.CopyComplete
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Debug\Entidades.dll
 C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Debug\Entidades.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\bin\Debug\Clases Abstractas.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\bin\Debug\Excepciones.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\bin\Debug\MetodosDeExtension.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\bin\Debug\Clases Abstractas.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\bin\Debug\MetodosDeExtension.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Lucas.Barbosa.2C.TP4\Entidades\obj\Debug\Entidades.pdb

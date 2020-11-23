@@ -11,14 +11,18 @@ namespace Teatro
 
     public partial class FrmBoleteriaVentanilla : Form
     {
+        #region "Atributos"
         private Boleteria<EntradaVentanilla> boleteria;
         private Thread ventas;
+        #endregion
+        #region "Constructor"
         public FrmBoleteriaVentanilla(Boleteria<EntradaVentanilla> boleteria)
         {
             InitializeComponent();
             this.boleteria = boleteria;
-
         }
+        #endregion
+        #region "Propiedades"
         public List<Sala> ActualizarSala
         {
             get
@@ -30,6 +34,14 @@ namespace Teatro
                 this.boleteria.Salas = value;
             }
         }
+        public Thread Ventas
+        {
+            get
+            {
+                return this.ventas;
+            }
+        }
+        #endregion
         private void brnAbrir_Click(object sender, EventArgs e)
         {
             this.comboBox1.DataSource = this.boleteria.Espectaculos;
@@ -47,11 +59,6 @@ namespace Teatro
             this.btnCerrar.Enabled = true;
         }
 
-        public void ActualizarButaca(string butaca)
-        {
-            this.labelButaca.Text = butaca;
-        }
-
         private void labelButaca_Click(object sender, EventArgs e)
         {
             if (this.boleteria != null)
@@ -59,9 +66,39 @@ namespace Teatro
                 this.ActualizarButaca(this.boleteria.BuscarButacaLibre((Espectaculo)this.comboBox1.SelectedItem));
             }
         }
+        private void btnGenerarVenta_Click(object sender, EventArgs e)
+        {
+            this.GenerarUnaVenta();
+        }
+        private void FrmBoleteriaVentanilla_Load(object sender, EventArgs e)
+        {
+            this.btnGenerarVenta.Enabled = false;
+            this.btnCerrar.Enabled = false;
+            this.boleteria.EventoConfirmacion += this.HandlerEventoConfirmacionVentanilla;
+            foreach (Sala sala in this.boleteria.Salas)
+            {
+                sala.ActualizarSalasEvento += Sala_ActualizarSalasEvento;
+            }
+        }
+        private void btnInforme_Click(object sender, EventArgs e)
+        {
+            FrmInformes formInformes = new FrmInformes();
+            formInformes.ActualizarInforme(this.boleteria.InformeEntradas());
+            formInformes.ShowDialog();
+        }
+        #region "Metodos"
 
         /// <summary>
-        /// Genera ventas aleatorias.
+        /// Se utiliza para actualizar una butaca.
+        /// </summary>
+        /// <param name="butaca"></param>
+        public void ActualizarButaca(string butaca)
+        {
+            this.labelButaca.Text = butaca;
+        }
+
+        /// <summary>
+        /// Genera ventas electrónicas aleatorias.
         /// </summary>
         private void GenerarVentasAleatorias()
         {
@@ -97,6 +134,9 @@ namespace Teatro
 
             }
         }
+        /// <summary>
+        /// Informa que ha sucedido un error en el richTextBox.
+        /// </summar
         private void InformarErrorVentanilla()
         {
             if (this.richTextBox1.InvokeRequired)
@@ -109,22 +149,11 @@ namespace Teatro
                 this.richTextBox1.Text = "Ha ocurrido un problema, no se efectuó la venta.\n" + this.richTextBox1.Text;
             }
         }
-        private void btnGenerarVenta_Click(object sender, EventArgs e)
-        {
-            this.GenerarUnaVenta();
-        }
 
-        private void FrmBoleteriaVentanilla_Load(object sender, EventArgs e)
-        {
-            this.btnGenerarVenta.Enabled = false;
-            this.btnCerrar.Enabled = false;
-            this.boleteria.EventoConfirmacion += this.HandlerEventoConfirmacionVentanilla;
-            foreach (Sala sala in this.boleteria.Salas)
-            {
-                sala.ActualizarSalasEvento += Sala_ActualizarSalasEvento;
-            }
-        }
-
+        /// <summary>
+        /// Manejador dle evento ActualizarSalasEvento, lo que hace es asignarle nuevamente la sala que fue modificada, asi se actualizan los Estados de las butacas. 
+        /// </summary>
+        /// <param name="salaActualizada">sala actualizada</param>
         private void Sala_ActualizarSalasEvento(Sala salaActualizada)
         {
             for(int i = 0; i< this.boleteria.Salas.Count; i++)
@@ -136,7 +165,10 @@ namespace Teatro
                 }
             }
         }
-
+        /// <summary>
+        /// Manejador del evento confirmar entrada, agrega los datos de la entrada a las demas en el richTextBox.
+        /// </summary>
+        /// <param name="e"></param>
         private void HandlerEventoConfirmacionVentanilla(Entrada e)
         {
             if (this.richTextBox1.InvokeRequired)
@@ -205,12 +237,7 @@ namespace Teatro
                 MessageBox.Show(ex.Message);
             }
         }
+        #endregion
 
-        private void btnInforme_Click(object sender, EventArgs e)
-        {
-            FrmInformes formInformes = new FrmInformes();
-            formInformes.ActualizarInforme(this.boleteria.InformeEntradas());
-            formInformes.ShowDialog();
-        }
     }
 }
