@@ -1,0 +1,23 @@
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Teatro.exe.config
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Teatro.exe
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Teatro.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Clases Abstractas.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Entidades.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Excepciones.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\MetodosDeExtension.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Clases Abstractas.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Entidades.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\Excepciones.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\bin\Release\MetodosDeExtension.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Vista.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Teatro.FrmBoleteriaElectronica.resources
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Teatro.FrmBoleteriaVentanilla.resources
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Teatro.FrmEspectaculo.resources
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Teatro.Teatro.resources
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Teatro.Properties.Resources.resources
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Vista.csproj.GenerateResource.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Vista.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Vista.csproj.CopyComplete
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Teatro.exe
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Teatro.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Teatro\obj\Release\Teatro.FrmInformes.resources

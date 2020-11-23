@@ -1,0 +1,9 @@
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\bin\Debug\MetodosDeExtension.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\bin\Debug\MetodosDeExtension.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Clases Abstractas\obj\Debug\Clases Abstractas.pdb

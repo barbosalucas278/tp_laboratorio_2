@@ -23,3 +23,28 @@ C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.csp
 C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
 C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.dll
 C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Archivos.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Barbosa.Lucas.2C.TP3.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Clases Abstractas.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Excepciones.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Archivos.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Barbosa.Lucas.2C.TP3.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Clases Abstractas.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Excepciones.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\UnitTest\obj\Debug\UnitTest.pdb

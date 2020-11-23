@@ -1,0 +1,6 @@
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\bin\Release\MetodosDeExtension.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\bin\Release\MetodosDeExtension.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\obj\Release\MetodosDeExtension.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\obj\Release\MetodosDeExtension.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\obj\Release\MetodosDeExtension.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\MetodosDeExtension\obj\Release\MetodosDeExtension.pdb

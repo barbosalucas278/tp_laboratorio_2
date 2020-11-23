@@ -33,7 +33,7 @@ namespace Entidades
         /// Obtiene mediante un índice la Jornada correspondiente a la lista de jornadas de la universidad.
         /// </summary>
         /// <param name="i"></param>
-        /// <returns></returns>
+        /// <returns>Falta arreglar esto del indice del indexador</returns>
         public Jornada this[int i]
         {
             get

@@ -1,0 +1,192 @@
+CLASE DE Programacion
+PROFESOR
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12224458
+Legajo: 1
+
+CLASES DEL DIA
+Programacion
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12234456
+Legajo: 1
+
+Clase que toma: Programacion
+Estado de la cuenta: Becado
+
+Nombre: Carlos
+Apellido: Gonzalez
+Nacionalidad: Argentino
+DNI: 12236456
+Legajo: 5
+
+Clase que toma: Programacion
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+
+CLASE DE Laboratorio
+PROFESOR
+Nombre: Roberto
+Apellido: Juarez
+Nacionalidad: Argentino
+DNI: 32234456
+Legajo: 2
+
+CLASES DEL DIA
+Laboratorio
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Joaquin
+Apellido: Suarez
+Nacionalidad: Extranjero
+DNI: 91122456
+Legajo: 7
+
+Clase que toma: Laboratorio
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+
+CLASE DE Legislacion
+PROFESOR
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12224458
+Legajo: 1
+
+CLASES DEL DIA
+Programacion
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Miguel
+Apellido: Hernandez
+Nacionalidad: Extranjero
+DNI: 92264456
+Legajo: 4
+
+Clase que toma: Legislacion
+Estado de la cuenta: AlDia
+
+Nombre: Rodrigo
+Apellido: Smith
+Nacionalidad: Argentino
+DNI: 22236456
+Legajo: 8
+
+Clase que toma: Legislacion
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+
+CLASE DE Programacion
+PROFESOR
+Nombre: Roberto
+Apellido: Juarez
+Nacionalidad: Argentino
+DNI: 32234456
+Legajo: 2
+
+CLASES DEL DIA
+Legislacion
+Programacion
+
+
+ALUMNOS 
+
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12234456
+Legajo: 1
+
+Clase que toma: Programacion
+Estado de la cuenta: Becado
+
+Nombre: Carlos
+Apellido: Gonzalez
+Nacionalidad: Argentino
+DNI: 12236456
+Legajo: 5
+
+Clase que toma: Programacion
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+
+CLASE DE Laboratorio
+PROFESOR
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12224458
+Legajo: 1
+
+CLASES DEL DIA
+Laboratorio
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Joaquin
+Apellido: Suarez
+Nacionalidad: Extranjero
+DNI: 91122456
+Legajo: 7
+
+Clase que toma: Laboratorio
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+
+CLASE DE Legislacion
+PROFESOR
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12224458
+Legajo: 1
+
+CLASES DEL DIA
+Laboratorio
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Miguel
+Apellido: Hernandez
+Nacionalidad: Extranjero
+DNI: 92264456
+Legajo: 4
+
+Clase que toma: Legislacion
+Estado de la cuenta: AlDia
+
+Nombre: Rodrigo
+Apellido: Smith
+Nacionalidad: Argentino
+DNI: 22236456
+Legajo: 8
+
+Clase que toma: Legislacion
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+

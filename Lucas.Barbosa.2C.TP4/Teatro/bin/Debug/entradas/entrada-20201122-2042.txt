@@ -1,0 +1,6 @@
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: A8 | $325 || Comprador: pochito
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: A5 | $325 || Comprador: pochito
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: D9 | $325 || Comprador: pochito

@@ -1,0 +1,13 @@
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\bin\Release\Entidades.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\bin\Release\Entidades.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\bin\Release\Clases Abstractas.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\bin\Release\Excepciones.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\bin\Release\MetodosDeExtension.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\bin\Release\Clases Abstractas.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\bin\Release\Excepciones.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\bin\Release\MetodosDeExtension.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Release\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Release\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Release\Clases Instanciables.csproj.CopyComplete
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Release\Entidades.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Entidades\obj\Release\Entidades.pdb

@@ -7,3 +7,12 @@ C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\C
 C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\Clases Abstractas.csproj.CopyComplete
 C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\Clases Abstractas.dll
 C:\Users\pocho\source\repos\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\Clases Abstractas.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\bin\Release\Clases Abstractas.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\bin\Release\Clases Abstractas.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\bin\Release\Excepciones.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\bin\Release\Excepciones.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\Clases Abstractas.csproj.CopyComplete
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\Clases Abstractas.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Clases Abstractas\obj\Release\Clases Abstractas.pdb

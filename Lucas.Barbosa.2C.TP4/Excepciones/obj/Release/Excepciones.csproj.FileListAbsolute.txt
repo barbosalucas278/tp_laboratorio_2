@@ -1,0 +1,6 @@
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\bin\Release\Excepciones.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\bin\Release\Excepciones.pdb
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\obj\Release\Excepciones.csprojAssemblyReference.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\obj\Release\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\obj\Release\Excepciones.dll
+C:\Users\pocho\source\repos\Lucas.Barbosa.Tp4.2c\Excepciones\obj\Release\Excepciones.pdb

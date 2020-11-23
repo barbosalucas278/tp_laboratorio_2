@@ -1,0 +1,32 @@
+ Espectaculo: motorhead
+ | Sala: 3 | Día y horario: 21/11/2020 21:40:00 | Ubicacion: H4 | $390,65 || Comprador: analia
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: B4 | $325 || Comprador: lucas
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: C1 | $325 || Comprador: lucas
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: B9 | $325 || Comprador: lucas
+ Espectaculo: motorhead
+ | Sala: 3 | Día y horario: 21/11/2020 21:40:00 | Ubicacion: D4 | $390,65 || Comprador: nahuel
+ Espectaculo: motorhead
+ | Sala: 3 | Día y horario: 21/11/2020 21:40:00 | Ubicacion: G2 | $390,65 || Comprador: analia
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: F5 | $325 || Comprador: analia
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: H2 | $325 || Comprador: analia
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: H5 | $325 || Comprador: roberto
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: E7 | $325 || Comprador: pochito
+ Espectaculo: motorhead
+ | Sala: 3 | Día y horario: 21/11/2020 21:40:00 | Ubicacion: J8 | $390,65 || Comprador: roberto
+ Espectaculo: motorhead
+ | Sala: 3 | Día y horario: 21/11/2020 21:40:00 | Ubicacion: J5 | $390,65 || Comprador: roberto
+ Espectaculo: motorhead
+ | Sala: 3 | Día y horario: 21/11/2020 21:40:00 | Ubicacion: C3 | $390,65 || Comprador: lucas
+ Espectaculo: pokemon
+ | Sala: 2 | Día y horario: 21/11/2020 20:40:00 | Ubicacion: A6 | $325 || Comprador: lucas
+ Espectaculo: motorhead
+ | Sala: 3 | Día y horario: 21/11/2020 21:40:00 | Ubicacion: F4 | $390,65 || Comprador: analia
+ Espectaculo: motorhead
+ | Sala: 3 | Día y horario: 21/11/2020 21:40:00 | Ubicacion: C4 | $390,65 || Comprador: lucas

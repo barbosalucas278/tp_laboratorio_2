@@ -1,0 +1,9 @@
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\bin\Release\Archivos.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\bin\Release\Archivos.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\bin\Release\Excepciones.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\bin\Release\Excepciones.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\obj\Release\Archivos.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\obj\Release\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\obj\Release\Archivos.csproj.CopyComplete
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\obj\Release\Archivos.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Barbosa.Lucas.2C.TP3\Archivos\obj\Release\Archivos.pdb

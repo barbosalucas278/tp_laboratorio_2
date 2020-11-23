@@ -1,0 +1,105 @@
+CLASE DE Programacion
+PROFESOR
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12224458
+Legajo: 1
+
+CLASES DEL DIA
+Programacion
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12234456
+Legajo: 1
+
+Clase que toma: Programacion
+Estado de la cuenta: Becado
+
+Nombre: Carlos
+Apellido: Gonzalez
+Nacionalidad: Argentino
+DNI: 12236456
+Legajo: 5
+
+Clase que toma: Programacion
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+
+CLASE DE Legislacion
+PROFESOR
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12224458
+Legajo: 1
+
+CLASES DEL DIA
+Programacion
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Miguel
+Apellido: Hernandez
+Nacionalidad: Extranjero
+DNI: 92264456
+Legajo: 4
+
+Clase que toma: Legislacion
+Estado de la cuenta: AlDia
+
+Nombre: Rodrigo
+Apellido: Smith
+Nacionalidad: Argentino
+DNI: 22236456
+Legajo: 8
+
+Clase que toma: Legislacion
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+
+CLASE DE Programacion
+PROFESOR
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12224458
+Legajo: 1
+
+CLASES DEL DIA
+Programacion
+Legislacion
+
+
+ALUMNOS 
+
+Nombre: Juan
+Apellido: Lopez
+Nacionalidad: Argentino
+DNI: 12234456
+Legajo: 1
+
+Clase que toma: Programacion
+Estado de la cuenta: Becado
+
+Nombre: Carlos
+Apellido: Gonzalez
+Nacionalidad: Argentino
+DNI: 12236456
+Legajo: 5
+
+Clase que toma: Programacion
+Estado de la cuenta: AlDia
+
+<------------------------------------------------>
+
