@@ -10,3 +10,9 @@ C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\Enti
 C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\Entidades\obj\Debug\Entidades.dll
 C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\Tp1\Entidades\obj\Debug\Entidades.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\RECUPERATORIO\TP1\Entidades\bin\Debug\Entidades.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\RECUPERATORIO\TP1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\RECUPERATORIO\TP1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\RECUPERATORIO\TP1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\RECUPERATORIO\TP1\Entidades\obj\Debug\Entidades.dll
+C:\Users\pocho\Desktop\UTN\Segundo cuatrimestre\laboII\tp_laboratorio_2\RECUPERATORIO\TP1\Entidades\obj\Debug\Entidades.pdb

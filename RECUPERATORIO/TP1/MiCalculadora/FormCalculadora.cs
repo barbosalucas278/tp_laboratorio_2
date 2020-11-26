@@ -94,5 +94,7 @@ namespace MiCalculadora
                 this.lblResultado.Text = numeroEntero.DecimalBinario(this.lblResultado.Text);
             }
         }
+
+
     }
 }

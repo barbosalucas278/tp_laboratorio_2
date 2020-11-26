@@ -14,13 +14,14 @@ namespace Entidades
         /// </summary>
         /// <param name="operador"></param>
         /// <returns>Si el operador es válido, operador analizado. Si es inválido devuelve "+" como operador.</returns>
-        private static string ValidarOperador(string operador)
+        private static string ValidarOperador(char operador)
         {
-            if (!string.IsNullOrWhiteSpace(operador))
+            if (!char.IsWhiteSpace(operador))
             {
-                if(operador == "+" || operador == "-" || operador == "/" || operador == "*")
+                if(operador == '+' || operador == '-' || operador == '/' || operador == '*')
                 {
-                    return operador;
+                    string salida = string.Empty;
+                    return salida += operador;
                 }
                 
             }
@@ -33,7 +34,7 @@ namespace Entidades
         /// <param name="numero2"></param>
         /// <param name="operador"></param>
         /// <returns></returns>
-        public static double Operar(Numero numero1, Numero numero2, string operador)
+        public static double Operar(Numero numero1, Numero numero2, char operador)
         {
             string operadorValido = ValidarOperador(operador);
 
