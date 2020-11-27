@@ -13,7 +13,7 @@ namespace MiCalculadora
 {
     public partial class FormCalculadora : Form
     {
-        
+
 
         public FormCalculadora()
         {
@@ -26,8 +26,18 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            double resultado = Operar(this.textNumero1.Text, this.textNumero2.Text, this.cmbOperador.SelectedItem.ToString());
-            this.lblResultado.Text = resultado.ToString();
+            string numero1 = this.textNumero1.Text;
+            string numero2 = this.textNumero2.Text;
+            string operador = string.Empty;
+            if (this.cmbOperador.SelectedItem != null)
+            {
+                operador = this.cmbOperador.SelectedItem.ToString();
+                if (!string.IsNullOrWhiteSpace(numero1) || !string.IsNullOrWhiteSpace(numero2) || !string.IsNullOrWhiteSpace(operador))
+                {
+                    double resultado = Operar(numero1, numero2, operador);
+                    this.lblResultado.Text = resultado.ToString();
+                }
+            }
         }
         /// <summary>
         /// Realiza una operacion matematica entre dos numeros.
@@ -38,7 +48,8 @@ namespace MiCalculadora
         /// <returns>El resultado de la operación.</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
-            return Calculadora.Operar(new Numero(numero1),new Numero(numero2), operador);
+            char operadorAux = operador[0];
+            return Calculadora.Operar(new Numero(numero1), new Numero(numero2), operadorAux);
         }
         /// <summary>
         /// Al precionar el boton buttonCerrar cierra el formulario.
@@ -95,6 +106,18 @@ namespace MiCalculadora
             }
         }
 
+        private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(MessageBox.Show("¿Estás seguro que queres salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            
+        }
 
+        private void FormCalculadora_Load(object sender, EventArgs e)
+        {
+            this.Limpiar();
+        }
     }
 }
