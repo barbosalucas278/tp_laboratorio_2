@@ -1,0 +1,6 @@
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Entidades\bin\Release\Entidades.dll
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Entidades\bin\Release\Entidades.pdb
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Entidades\obj\Release\Entidades.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Entidades\obj\Release\Entidades.dll
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Entidades\obj\Release\Entidades.pdb

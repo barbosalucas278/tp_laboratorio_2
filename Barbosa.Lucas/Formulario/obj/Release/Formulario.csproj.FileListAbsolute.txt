@@ -1,0 +1,13 @@
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\bin\Release\Formulario.exe.config
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\bin\Release\Formulario.exe
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\bin\Release\Formulario.pdb
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\bin\Release\Entidades.dll
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\bin\Release\Entidades.pdb
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\obj\Release\Formulario.csprojAssemblyReference.cache
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\obj\Release\Formulario.Cuartel.resources
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\obj\Release\Formulario.Properties.Resources.resources
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\obj\Release\Formulario.csproj.GenerateResource.cache
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\obj\Release\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\obj\Release\Formulario.csproj.CopyComplete
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\obj\Release\Formulario.exe
+C:\Users\pocho\Desktop\20201119-SP - alumno\Barbosa.Lucas\Formulario\obj\Release\Formulario.pdb
